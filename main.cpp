@@ -17,7 +17,7 @@ int main()
         {
             cout << ligne << endl;
         }
-
+fichier.close();  
     }
     return 0;
 }
