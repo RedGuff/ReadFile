@@ -8,7 +8,7 @@ int main()
     ifstream fichier(test.c_str(), ios::in);
     if(!fichier)
     {
-        cerr << "Impossible to open the file!" << endl;
+        cerr << "Impossible to read the file: " << test << "!" << endl;
     }
     else
     {
